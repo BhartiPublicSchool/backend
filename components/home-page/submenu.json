@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_page_submenus",
+  "info": {
+    "name": "Submenu",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "sub_menu_item": {
+      "type": "string",
+      "required": true
+    },
+    "menu_link": {
+      "type": "string"
+    }
+  }
+}

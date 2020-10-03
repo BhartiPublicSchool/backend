@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_home_page_menus",
+  "info": {
+    "name": "Menu",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "menu_item": {
+      "type": "string"
+    },
+    "menu_hover_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "menu_hover_description": {
+      "type": "richtext"
+    },
+    "Submenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.submenu"
+    }
+  }
+}
