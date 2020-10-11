@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_page_story_timelines",
+  "info": {
+    "name": "StoryTimeline",
+    "icon": "dna"
+  },
+  "options": {},
+  "attributes": {
+    "Year": {
+      "type": "string"
+    },
+    "timeline_title": {
+      "type": "string"
+    },
+    "timeline_text": {
+      "type": "richtext"
+    },
+    "timeline_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

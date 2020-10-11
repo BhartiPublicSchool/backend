@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_page_news_and_announcements",
+  "info": {
+    "name": "NewsAndAnnouncement",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "new_title": {
+      "type": "string"
+    },
+    "news_text": {
+      "type": "richtext"
+    },
+    "news_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -28,6 +28,21 @@
       "type": "component",
       "repeatable": true,
       "component": "home-page.card"
+    },
+    "Fold4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.stat"
+    },
+    "NewsAndAnnouncement": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.news-and-announcement"
+    },
+    "StoryTimeline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.story-timeline"
     }
   }
 }
