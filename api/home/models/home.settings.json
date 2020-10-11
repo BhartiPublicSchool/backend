@@ -15,10 +15,9 @@
       "component": "home-page.title"
     },
     "Menu": {
-      "type": "dynamiczone",
-      "components": [
-        "home-page.menu"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.menu"
     }
   }
 }
