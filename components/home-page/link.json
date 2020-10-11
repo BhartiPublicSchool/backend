@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_page_links",
+  "info": {
+    "name": "link",
+    "icon": "bezier-curve"
+  },
+  "options": {},
+  "attributes": {
+    "link_title": {
+      "type": "string"
+    },
+    "link_href": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_home_page_cards",
+  "info": {
+    "name": "Card",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "card_title": {
+      "type": "string"
+    },
+    "card_text": {
+      "type": "richtext"
+    },
+    "card_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "card_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.link"
+    }
+  }
+}

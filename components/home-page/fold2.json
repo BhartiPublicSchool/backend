@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_home_page_fold2s",
+  "info": {
+    "name": "fold2",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "fold2_title_start": {
+      "type": "string"
+    },
+    "fold2_text": {
+      "type": "richtext"
+    },
+    "fold2_title_end": {
+      "type": "string"
+    },
+    "fold2_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.link"
+    }
+  }
+}
