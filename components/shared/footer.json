@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "name": "footer",
+    "icon": "money-check"
+  },
+  "options": {},
+  "attributes": {
+    "footer_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

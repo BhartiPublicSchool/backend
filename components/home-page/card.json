@@ -27,11 +27,6 @@
       "type": "component",
       "repeatable": false,
       "component": "home-page.link"
-    },
-    "Fold_Title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "home-page.fold-title"
     }
   }
 }

@@ -43,6 +43,21 @@
       "type": "component",
       "repeatable": true,
       "component": "home-page.story-timeline"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.footer"
+    },
+    "Fold4_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tiles-title"
+    },
+    "newsAnnouncement_title_with_bg": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.fold-title-with-bg"
     }
   }
 }
