@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_home_page_fold_titles",
+  "info": {
+    "name": "Fold_Title",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
