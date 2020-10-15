@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shared",
+      "handler": "shared.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shared",
+      "handler": "shared.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shared",
+      "handler": "shared.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

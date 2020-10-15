@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "shareds",
+  "info": {
+    "name": "shared"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.footer"
+    },
+    "header_menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.header"
+    },
+    "quickMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quick-link"
+    },
+    "dropdown_menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quick-links"
+    }
+  }
+}

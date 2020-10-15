@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_quick_links",
+  "info": {
+    "name": "quickLink",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.sub-menu"
+    }
+  }
+}

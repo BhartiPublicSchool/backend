@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "name": "header",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "menu_item": {
+      "type": "string"
+    },
+    "menu_hover_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "menu_hover_description": {
+      "type": "richtext"
+    },
+    "submenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.sub-menu"
+    }
+  }
+}

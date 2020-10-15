@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_sub_menus",
+  "info": {
+    "name": "SubMenu",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "sub_menu_item": {
+      "type": "string"
+    },
+    "menu_link": {
+      "type": "string"
+    }
+  }
+}
