@@ -27,6 +27,9 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.sub-menu"
+    },
+    "menu_href": {
+      "type": "string"
     }
   }
 }
