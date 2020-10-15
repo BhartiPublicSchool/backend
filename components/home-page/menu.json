@@ -10,7 +10,7 @@
       "type": "string"
     },
     "menu_hover_image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "files",
