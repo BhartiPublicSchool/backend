@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_slides",
+  "info": {
+    "name": "slide",
+    "icon": "camera-retro"
+  },
+  "options": {},
+  "attributes": {
+    "slide_title": {
+      "type": "string"
+    },
+    "slide_text": {
+      "type": "richtext"
+    },
+    "slide_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

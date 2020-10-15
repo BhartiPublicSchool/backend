@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/explore-campus",
+      "handler": "explore-campus.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/explore-campus",
+      "handler": "explore-campus.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/explore-campus",
+      "handler": "explore-campus.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_explore_campus_explore_campus_legends",
+  "info": {
+    "name": "explore-campus-legend",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "legend_title": {
+      "type": "string"
+    },
+    "legend_text": {
+      "type": "richtext"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.slide"
+    }
+  }
+}
