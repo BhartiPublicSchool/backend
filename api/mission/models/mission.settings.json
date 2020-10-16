@@ -25,6 +25,21 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "fold1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mission.mission-statement"
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "mission.head-text-video"
+    },
+    "fold3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "mission.fold3"
     }
   }
 }

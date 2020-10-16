@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_mission_mission_statements",
+  "info": {
+    "name": "mission_statement",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "mission_body": {
+      "type": "richtext"
+    }
+  }
+}

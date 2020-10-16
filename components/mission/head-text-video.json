@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_mission_head_text_videos",
+  "info": {
+    "name": "head_text_video",
+    "icon": "hippo"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "extra_text": {
+      "type": "richtext"
+    }
+  }
+}
