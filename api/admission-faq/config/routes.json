@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/admission-faq",
+      "handler": "admission-faq.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/admission-faq",
+      "handler": "admission-faq.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/admission-faq",
+      "handler": "admission-faq.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

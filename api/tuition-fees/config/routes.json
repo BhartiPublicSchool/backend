@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tuition-fees",
+      "handler": "tuition-fees.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tuition-fees",
+      "handler": "tuition-fees.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tuition-fees",
+      "handler": "tuition-fees.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

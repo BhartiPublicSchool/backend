@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/the-bps-difference",
+      "handler": "the-bps-difference.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/the-bps-difference",
+      "handler": "the-bps-difference.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/the-bps-difference",
+      "handler": "the-bps-difference.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

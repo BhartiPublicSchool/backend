@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/leadership",
+      "handler": "leadership.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/leadership",
+      "handler": "leadership.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/leadership",
+      "handler": "leadership.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

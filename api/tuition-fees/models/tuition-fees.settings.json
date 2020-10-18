@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "tuition_fees",
+  "info": {
+    "name": "Tuition Fees"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

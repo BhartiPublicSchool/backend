@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/a-rich-history",
+      "handler": "a-rich-history.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/a-rich-history",
+      "handler": "a-rich-history.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/a-rich-history",
+      "handler": "a-rich-history.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "a_rich_histories",
+  "info": {
+    "name": "A Rich History"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "folds": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "the_bps_differences",
+  "info": {
+    "name": "The BPS Difference"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
