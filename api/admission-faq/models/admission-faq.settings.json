@@ -25,6 +25,21 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "folds": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-text"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.qa"
     }
   }
 }
