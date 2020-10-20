@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "community_outreaches",
+  "info": {
+    "name": "Community Outreach"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-text"
+    },
+    "last_fold": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sub-header"
+    }
+  }
+}

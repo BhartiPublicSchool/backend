@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_hover_cards",
+  "info": {
+    "name": "hoverCard",
+    "icon": "memory"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

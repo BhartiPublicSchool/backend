@@ -13,7 +13,7 @@
       "type": "richtext"
     },
     "card_img": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

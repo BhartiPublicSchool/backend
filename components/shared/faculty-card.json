@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_faculty_cards",
+  "info": {
+    "name": "faculty_card",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "parents",
+  "info": {
+    "name": "Parents"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "fold3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sub-header"
+    },
+    "parent_testimonial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hover-card"
+    }
+  }
+}

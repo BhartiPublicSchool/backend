@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alumni",
+      "handler": "alumni.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alumni",
+      "handler": "alumni.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alumni",
+      "handler": "alumni.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

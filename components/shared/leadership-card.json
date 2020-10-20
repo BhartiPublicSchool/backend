@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_leadership_cards",
+  "info": {
+    "name": "leadershipCard",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "extra_text": {
+      "type": "richtext"
+    }
+  }
+}

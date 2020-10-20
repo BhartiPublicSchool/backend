@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_hover_videos",
+  "info": {
+    "name": "hoverVideos",
+    "icon": "table-tennis"
+  },
+  "options": {},
+  "attributes": {
+    "videos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

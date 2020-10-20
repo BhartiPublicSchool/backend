@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/outdoor-education",
+      "handler": "outdoor-education.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/outdoor-education",
+      "handler": "outdoor-education.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/outdoor-education",
+      "handler": "outdoor-education.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

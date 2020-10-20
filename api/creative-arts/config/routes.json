@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/creative-arts",
+      "handler": "creative-arts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/creative-arts",
+      "handler": "creative-arts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/creative-arts",
+      "handler": "creative-arts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

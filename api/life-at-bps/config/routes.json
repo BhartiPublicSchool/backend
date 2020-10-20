@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/life-at-bps",
+      "handler": "life-at-bps.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/life-at-bps",
+      "handler": "life-at-bps.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/life-at-bps",
+      "handler": "life-at-bps.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

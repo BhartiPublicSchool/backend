@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "heading_and_texts",
+  "info": {
+    "name": " Forms-Certificates"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "instructions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    }
+  }
+}

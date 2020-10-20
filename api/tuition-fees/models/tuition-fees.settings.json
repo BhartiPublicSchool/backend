@@ -25,6 +25,36 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "parallax": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.parallax"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "oneTimePayment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.buttons"
+    },
+    "lastFold": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
     }
   }
 }

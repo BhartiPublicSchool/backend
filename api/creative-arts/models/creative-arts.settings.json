@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "creative_arts",
+  "info": {
+    "name": "Creative Arts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-text"
+    },
+    "fold3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hover-card"
+    },
+    "fold4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-text"
+    },
+    "fold5": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.leadership-card"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    }
+  }
+}

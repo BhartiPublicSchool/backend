@@ -25,6 +25,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Leaders": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.leadership-card"
     }
   }
 }

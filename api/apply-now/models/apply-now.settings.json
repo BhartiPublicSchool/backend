@@ -25,6 +25,26 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tiles-title"
+    },
+    "applySteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.qa"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.link"
     }
   }
 }

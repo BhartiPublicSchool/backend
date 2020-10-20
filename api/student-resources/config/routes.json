@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/student-resources",
+      "handler": "student-resources.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/student-resources",
+      "handler": "student-resources.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/student-resources",
+      "handler": "student-resources.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

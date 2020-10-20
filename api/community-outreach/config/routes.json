@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/community-outreach",
+      "handler": "community-outreach.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/community-outreach",
+      "handler": "community-outreach.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/community-outreach",
+      "handler": "community-outreach.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

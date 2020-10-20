@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "employments",
+  "info": {
+    "name": "employment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-text"
+    },
+    "fold3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hover-card"
+    },
+    "jobs_heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tiles-title"
+    },
+    "faculty_tab": {
+      "type": "richtext"
+    },
+    "staff_tab": {
+      "type": "richtext"
+    }
+  }
+}

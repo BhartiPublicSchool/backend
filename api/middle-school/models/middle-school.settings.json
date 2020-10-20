@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "middle_schools",
+  "info": {
+    "name": "Middle School"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "fold3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hover-card"
+    },
+    "parallax": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.parallax"
+    },
+    "fold4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hover-card"
+    },
+    "fold5": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sub-header"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    }
+  }
+}

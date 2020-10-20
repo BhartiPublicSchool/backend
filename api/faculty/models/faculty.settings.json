@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "faculties",
+  "info": {
+    "name": "Faculty"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "lower_wing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faculty-card"
+    },
+    "middle_wing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faculty-card"
+    },
+    "upper_wing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faculty-card"
+    },
+    "staffs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faculty-card"
+    }
+  }
+}

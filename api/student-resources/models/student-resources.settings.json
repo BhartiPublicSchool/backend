@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "student_resources",
+  "info": {
+    "name": "Student Resources"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "fold3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hover-card"
+    },
+    "fold4": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-text"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    }
+  }
+}

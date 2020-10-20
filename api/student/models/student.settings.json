@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "students",
+  "info": {
+    "name": "student"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-text"
+    },
+    "student_carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hover-card"
+    }
+  }
+}

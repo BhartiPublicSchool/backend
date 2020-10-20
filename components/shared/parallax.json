@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_parallaxes",
+  "info": {
+    "name": "parallax",
+    "icon": "torah"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "parallax_img": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "extra_text": {
+      "type": "richtext"
+    }
+  }
+}

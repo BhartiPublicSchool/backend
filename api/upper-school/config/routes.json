@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/upper-school",
+      "handler": "upper-school.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/upper-school",
+      "handler": "upper-school.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/upper-school",
+      "handler": "upper-school.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

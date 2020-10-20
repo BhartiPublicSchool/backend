@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "upper_schools",
+  "info": {
+    "name": "Upper School"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.leadership-card"
+    },
+    "fold3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.leadership-card"
+    },
+    "parallax": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.parallax"
+    },
+    "staticstics_fold": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.stat"
+    },
+    "fold5": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sub-header"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    }
+  }
+}

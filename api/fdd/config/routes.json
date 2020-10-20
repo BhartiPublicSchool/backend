@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fdd",
+      "handler": "fdd.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fdd",
+      "handler": "fdd.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fdd",
+      "handler": "fdd.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
