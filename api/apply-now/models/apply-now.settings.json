@@ -45,6 +45,11 @@
       "type": "component",
       "repeatable": false,
       "component": "home-page.link"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
     }
   }
 }
