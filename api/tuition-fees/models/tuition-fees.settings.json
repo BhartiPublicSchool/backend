@@ -48,10 +48,15 @@
     },
     "buttons": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "shared.buttons"
     },
     "lastFold": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "paymentPlan": {
       "type": "component",
       "repeatable": false,
       "component": "shared.header-and-text"
