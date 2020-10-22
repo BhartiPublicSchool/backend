@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/athletic",
+      "handler": "athletic.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/athletic",
+      "handler": "athletic.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/athletic",
+      "handler": "athletic.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
