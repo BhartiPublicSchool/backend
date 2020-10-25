@@ -58,6 +58,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.fold-title-with-bg"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-data"
     }
   }
 }

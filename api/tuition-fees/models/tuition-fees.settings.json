@@ -60,6 +60,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.header-and-text"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-data"
     }
   }
 }

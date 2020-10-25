@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "explore_campuses",
+  "collectionName": "contacts",
   "info": {
-    "name": "Explore Campus"
+    "name": "Contact"
   },
   "options": {
     "increments": true,
@@ -26,21 +26,10 @@
       "plugin": "upload",
       "required": false
     },
-    "Legends": {
+    "fold2": {
       "type": "component",
-      "repeatable": true,
-      "component": "explore-campus.explore-campus-legend"
-    },
-    "page_bg_sm": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+      "repeatable": false,
+      "component": "shared.image-text"
     },
     "meta": {
       "type": "component",

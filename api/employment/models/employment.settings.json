@@ -46,6 +46,11 @@
     },
     "staff_tab": {
       "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-data"
     }
   }
 }

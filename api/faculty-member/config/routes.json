@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/courses",
-      "handler": "courses.find",
+      "path": "/faculty-members",
+      "handler": "faculty-member.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/courses/count",
-      "handler": "courses.count",
+      "path": "/faculty-members/count",
+      "handler": "faculty-member.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/courses/:id",
-      "handler": "courses.findOne",
+      "path": "/faculty-members/:id",
+      "handler": "faculty-member.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/courses",
-      "handler": "courses.create",
+      "path": "/faculty-members",
+      "handler": "faculty-member.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/courses/:id",
-      "handler": "courses.update",
+      "path": "/faculty-members/:id",
+      "handler": "faculty-member.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/courses/:id",
-      "handler": "courses.delete",
+      "path": "/faculty-members/:id",
+      "handler": "faculty-member.delete",
       "config": {
         "policies": []
       }

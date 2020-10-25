@@ -30,6 +30,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.leadership-card"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-data"
     }
   }
 }

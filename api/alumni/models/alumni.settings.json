@@ -31,16 +31,15 @@
       "repeatable": false,
       "component": "shared.tiles-title"
     },
-    "gallery_imgs": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-data"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hover-card"
     }
   }
 }

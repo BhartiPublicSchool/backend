@@ -30,6 +30,21 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.header-and-text"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.page-meta-data"
+    },
+    "select_school": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tiles-title"
+    },
+    "select_grade": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tiles-title"
     }
   }
 }

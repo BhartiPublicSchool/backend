@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "explore_campuses",
+  "collectionName": "beyond_books",
   "info": {
-    "name": "Explore Campus"
+    "name": "Beyond Books"
   },
   "options": {
     "increments": true,
@@ -26,21 +26,30 @@
       "plugin": "upload",
       "required": false
     },
-    "Legends": {
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "fold3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sub-header"
+    },
+    "fold4": {
       "type": "component",
       "repeatable": true,
-      "component": "explore-campus.explore-campus-legend"
+      "component": "shared.hover-card"
     },
-    "page_bg_sm": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "fold5": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sub-header"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
     },
     "meta": {
       "type": "component",
