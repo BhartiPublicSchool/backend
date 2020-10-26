@@ -50,11 +50,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.image-text"
-    },
-    "meta": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.page-meta-data"
     }
   }
 }

@@ -24,37 +24,10 @@
       "repeatable": false,
       "component": "shared.quick-link"
     },
-    "meta": {
+    "dropdown_menu": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.page-meta-data"
-    },
-    "logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "logo_mobile": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "Quicklink_dropdown": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.q-menu"
+      "component": "shared.quick-links"
     }
   }
 }

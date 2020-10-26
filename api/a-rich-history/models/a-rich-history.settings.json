@@ -30,11 +30,6 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.image-text"
-    },
-    "meta": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.page-meta-data"
     }
   }
 }

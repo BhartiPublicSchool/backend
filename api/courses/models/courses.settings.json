@@ -1,22 +1,19 @@
 {
   "kind": "collectionType",
-  "collectionName": "faculty_members",
+  "collectionName": "courses",
   "info": {
-    "name": "FacultyMember"
+    "name": "courses"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "name": {
+    "courseName": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
-    },
-    "img": {
-      "model": "file",
+    "course_img": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -25,6 +22,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "duration": {
+      "type": "richtext"
+    },
+    "tag": {
+      "type": "string"
     }
   }
 }
