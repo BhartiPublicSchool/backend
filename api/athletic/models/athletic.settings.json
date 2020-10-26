@@ -48,7 +48,7 @@
     },
     "last_fold": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "shared.image-text"
     },
     "meta": {
