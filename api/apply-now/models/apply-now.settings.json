@@ -50,6 +50,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.buttons"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
     }
   }
 }

@@ -28,6 +28,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.dropdown-hover"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
     }
   }
 }

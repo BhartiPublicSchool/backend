@@ -41,6 +41,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
     }
   }
 }
