@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "heading_and_texts",
+  "collectionName": "landing_pages",
   "info": {
-    "name": " Forms-Certificates"
+    "name": "Landing Page"
   },
   "options": {
     "increments": true,
@@ -26,20 +26,26 @@
       "plugin": "upload",
       "required": false
     },
-    "instructions": {
+    "home_buttons": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.header-and-text"
+      "repeatable": true,
+      "component": "shared.buttons"
     },
-    "meta": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.meta"
-    },
-    "grade_selection": {
+    "select_school": {
       "type": "component",
       "repeatable": true,
       "component": "shared.tiles-title"
+    },
+    "select_grade": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.tiles-title"
+    },
+    "form_title1": {
+      "type": "string"
+    },
+    "form_title2": {
+      "type": "string"
     }
   }
 }
