@@ -24,10 +24,10 @@
       "repeatable": false,
       "component": "shared.quick-link"
     },
-    "dropdown_menu": {
+    "dropdownHover": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.quick-links"
+      "component": "shared.dropdown-hover"
     }
   }
 }

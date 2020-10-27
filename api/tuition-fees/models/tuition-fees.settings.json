@@ -60,6 +60,16 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.header-and-text"
+    },
+    "statatistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.stat"
+    },
+    "statistics_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tiles-title"
     }
   }
 }

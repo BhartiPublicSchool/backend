@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_dropdown_hovers",
+  "info": {
+    "name": "dropdownHover",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "menu_title": {
+      "type": "string"
+    },
+    "q_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.link"
+    }
+  }
+}
