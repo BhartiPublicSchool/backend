@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "searches",
+  "info": {
+    "name": "search"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "keyword": {
+      "type": "string"
+    },
+    "page": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

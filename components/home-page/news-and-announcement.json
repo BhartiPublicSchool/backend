@@ -22,6 +22,11 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "modal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hover-card"
     }
   }
 }
