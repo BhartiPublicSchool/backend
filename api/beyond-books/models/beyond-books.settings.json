@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "admission_faqs",
+  "collectionName": "beyond_books",
   "info": {
-    "name": "Admission FAQ"
+    "name": "Beyond Books"
   },
   "options": {
     "increments": true,
@@ -26,30 +26,30 @@
       "plugin": "upload",
       "required": false
     },
-    "folds": {
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header-and-text"
+    },
+    "sub_heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sub-header"
+    },
+    "fold4": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.image-text"
+      "component": "shared.hover-card"
     },
-    "buttons": {
+    "fold5": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.sub-header"
+    },
+    "Buttons": {
       "type": "component",
       "repeatable": true,
       "component": "shared.buttons"
-    },
-    "FAQ": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.qa"
-    },
-    "qa_title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.tiles-title"
-    },
-    "meta": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.meta"
     }
   }
 }

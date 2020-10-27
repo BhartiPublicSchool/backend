@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/beyond-books",
+      "handler": "beyond-books.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/beyond-books",
+      "handler": "beyond-books.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/beyond-books",
+      "handler": "beyond-books.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

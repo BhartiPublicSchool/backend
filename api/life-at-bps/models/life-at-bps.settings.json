@@ -30,6 +30,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.hover-videos"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.meta"
     }
   }
 }
