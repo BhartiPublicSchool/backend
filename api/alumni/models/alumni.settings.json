@@ -35,6 +35,16 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.meta"
+    },
+    "fold_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-text"
+    },
+    "alumni_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tiles-title"
     }
   }
 }
