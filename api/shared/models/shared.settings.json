@@ -60,6 +60,9 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.fold-title-with-bg"
+    },
+    "header_script": {
+      "type": "richtext"
     }
   }
 }
