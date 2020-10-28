@@ -26,11 +26,6 @@
       "plugin": "upload",
       "required": false
     },
-    "fold2": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.tiles-title"
-    },
     "gallery": {
       "type": "component",
       "repeatable": true,
@@ -40,6 +35,16 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.meta"
+    },
+    "fold2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-text"
+    },
+    "alumni_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tiles-title"
     }
   }
 }
