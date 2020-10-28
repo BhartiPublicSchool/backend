@@ -51,6 +51,16 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.meta"
+    },
+    "faculty_openings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.fold-title-with-bg"
+    },
+    "staff_openings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.fold-title-with-bg"
     }
   }
 }
