@@ -64,6 +64,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.meta"
+    },
+    "quote_by": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.hover-card"
     }
   }
 }
