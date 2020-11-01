@@ -66,6 +66,16 @@
     },
     "footer_address": {
       "type": "richtext"
+    },
+    "footer_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    },
+    "startup_modal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.modal"
     }
   }
 }
