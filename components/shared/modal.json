@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_modals",
+  "info": {
+    "name": "modal",
+    "icon": "baby"
+  },
+  "options": {},
+  "attributes": {
+    "showModal": {
+      "type": "boolean"
+    },
+    "modal_title": {
+      "type": "string"
+    },
+    "modal_body": {
+      "type": "richtext"
+    },
+    "modal_text": {
+      "type": "richtext"
+    },
+    "modal_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    }
+  }
+}
