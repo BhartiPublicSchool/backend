@@ -106,6 +106,30 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "fb_link1": {
+      "type": "string"
+    },
+    "fb_link2": {
+      "type": "string"
+    },
+    "yt_link1": {
+      "type": "string"
+    },
+    "yt_link2": {
+      "type": "string"
+    },
+    "ln_link1": {
+      "type": "string"
+    },
+    "ln_link2": {
+      "type": "string"
+    },
+    "in_link1": {
+      "type": "string"
+    },
+    "in_link2": {
+      "type": "string"
     }
   }
 }
