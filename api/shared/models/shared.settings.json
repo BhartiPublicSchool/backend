@@ -76,6 +76,29 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.modal"
+    },
+    "fb_link": {
+      "type": "string"
+    },
+    "yt_link": {
+      "type": "string"
+    },
+    "ln_link": {
+      "type": "string"
+    },
+    "in_link": {
+      "type": "string"
+    },
+    "accreditation": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

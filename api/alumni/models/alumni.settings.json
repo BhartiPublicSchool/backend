@@ -45,6 +45,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.tiles-title"
+    },
+    "alumni_gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.leadership-card"
     }
   }
 }
