@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_maps",
+  "info": {
+    "name": "Site Map"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page": {
+      "type": "string"
+    },
+    "page_href": {
+      "type": "string"
+    }
+  }
+}
