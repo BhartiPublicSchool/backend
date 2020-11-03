@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/email-recipients",
+      "handler": "email-recipient.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/email-recipients/count",
+      "handler": "email-recipient.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/email-recipients/:id",
+      "handler": "email-recipient.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/email-recipients",
+      "handler": "email-recipient.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/email-recipients/:id",
+      "handler": "email-recipient.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/email-recipients/:id",
+      "handler": "email-recipient.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
