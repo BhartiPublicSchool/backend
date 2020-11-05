@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "site_maps",
   "info": {
     "name": "Site Map"
@@ -9,11 +9,27 @@
     "timestamps": true
   },
   "attributes": {
-    "page": {
+    "page_title": {
       "type": "string"
     },
-    "page_href": {
-      "type": "string"
+    "page_subtitle": {
+      "type": "richtext"
+    },
+    "page_bg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
     }
   }
 }
