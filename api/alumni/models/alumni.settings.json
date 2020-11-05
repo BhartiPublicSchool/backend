@@ -26,11 +26,6 @@
       "plugin": "upload",
       "required": false
     },
-    "gallery": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.hover-card"
-    },
     "meta": {
       "type": "component",
       "repeatable": false,

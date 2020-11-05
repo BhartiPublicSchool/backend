@@ -2,39 +2,15 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/site-maps",
+      "path": "/site-map",
       "handler": "site-map.find",
       "config": {
         "policies": []
       }
     },
     {
-      "method": "GET",
-      "path": "/site-maps/count",
-      "handler": "site-map.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/site-maps/:id",
-      "handler": "site-map.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/site-maps",
-      "handler": "site-map.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
       "method": "PUT",
-      "path": "/site-maps/:id",
+      "path": "/site-map",
       "handler": "site-map.update",
       "config": {
         "policies": []
@@ -42,7 +18,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/site-maps/:id",
+      "path": "/site-map",
       "handler": "site-map.delete",
       "config": {
         "policies": []
